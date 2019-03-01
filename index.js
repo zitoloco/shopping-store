@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from './pages/main';
+import Cart from './pages/cart';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 class App extends React.Component {
     render(){
         return(
-            <div>
-                <h1>Hello World!</h1>
-            </div>
+            <BrowserRouter>
+                <Switch>
+                    <Route path='/' exact={true} component={Main} />
+                    <Route path='/cart' component={Cart} />
+                </Switch>
+            </BrowserRouter>
         );
     }
 }
