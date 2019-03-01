@@ -5,7 +5,6 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <Header />
         <h1>Main Page</h1>
       </div>
     )
