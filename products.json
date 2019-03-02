@@ -2,6 +2,7 @@
     "products": [
       {
         "name": "VESTIDO TRANSPASSE BOW",
+        "id": 0,
         "style": "20002605",
         "code_color": "20002605_613",
         "color_slug": "tapecaria",
@@ -42,6 +43,7 @@
       },
       {
         "name": "REGATA ALCINHA FOLK",
+        "id": 1,
         "style": "20002570",
         "code_color": "20002570_614",
         "color_slug": "preto",
@@ -82,6 +84,7 @@
       },
       {
         "name": "TOP CROPPED SUEDE",
+        "id": 2,
         "style": "20002575",
         "code_color": "20002575_035",
         "color_slug": "caramelo",
@@ -122,6 +125,7 @@
       },
       {
         "name": "BATA DECOTE FLUID",
+        "id": 3,
         "style": "20002581",
         "code_color": "20002581_614",
         "color_slug": "mini-folk",
@@ -162,6 +166,7 @@
       },
       {
         "name": "CAMISA SUEDE SPAN",
+        "id": 4,
         "style": "20002584",
         "code_color": "20002584_027",
         "color_slug": "burgundy",
@@ -202,6 +207,7 @@
       },
       {
         "name": "CALÇA CLASSIC PRINT",
+        "id": 5,
         "style": "20002634",
         "code_color": "20002634_613",
         "color_slug": "free-dots",
@@ -242,6 +248,7 @@
       },
       {
         "name": "REGATA ALCINHA FOLK",
+        "id": 6,
         "style": "20002570",
         "code_color": "20002570_612",
         "color_slug": "off-white",
@@ -282,6 +289,7 @@
       },
       {
         "name": "MACAQUINHO ALFAIATARIA PEACE",
+        "id": 7,
         "style": "20002612",
         "code_color": "20002612_612",
         "color_slug": "floral-red",
@@ -322,6 +330,7 @@
       },
       {
         "name": "BOLSA FLAP TRIANGLE",
+        "id": 8,
         "style": "20002945",
         "code_color": "20002945_027",
         "color_slug": "caramelo",
@@ -342,6 +351,7 @@
       },
       {
         "name": "VESTIDO LONGO FLOAT",
+        "id": 9,
         "style": "20002606",
         "code_color": "20002606_612",
         "color_slug": "tapecaria",
@@ -382,6 +392,7 @@
       },
       {
         "name": "BATA DECOTE FLUID",
+        "id": 10,
         "style": "20002581",
         "code_color": "20002581_612",
         "color_slug": "bohemian-preto",
@@ -422,6 +433,7 @@
       },
       {
         "name": "VESTIDO FRANZIDO RECORTES",
+        "id": 11,
         "style": "20001609",
         "code_color": "20001609_029",
         "color_slug": "preto",
@@ -462,6 +474,7 @@
       },
       {
         "name": "CALÇA COMFORT TASSEL",
+        "id": 12,
         "style": "20001786",
         "code_color": "20001786_594",
         "color_slug": "paisley-gipsy-azul",
@@ -502,6 +515,7 @@
       },
       {
         "name": "SAIA DENIM BOTÕES",
+        "id": 13,
         "style": "20001695",
         "code_color": "20001695_063",
         "color_slug": "indigo-escuro",
@@ -542,6 +556,7 @@
       },
       {
         "name": "BLUSA LAÇO ISTAMBUL",
+        "id": 14,
         "style": "20002600",
         "code_color": "20002600_293",
         "color_slug": "laranja-queimado",
@@ -582,6 +597,7 @@
       },
       {
         "name": "BLUSA RIB STRIPES",
+        "id": 15,
         "style": "20002829",
         "code_color": "20002829_006",
         "color_slug": "bege",
@@ -622,6 +638,7 @@
       },
       {
         "name": "CASACO WHITE FUR",
+        "id": 16,
         "style": "20002648",
         "code_color": "20002648_029",
         "color_slug": "off-white",
@@ -662,6 +679,7 @@
       },
       {
         "name": "VESTIDO CURTO FESTIVAL",
+        "id": 17,
         "style": "20001684",
         "code_color": "20001684_587",
         "color_slug": "floral-vintage-vermelho",
@@ -702,6 +720,7 @@
       },
       {
         "name": "ÓCULOS DE SOL BOLD",
+        "id": 18,
         "style": "20001882",
         "code_color": "20001882_008",
         "color_slug": "marrom",
@@ -722,6 +741,7 @@
       },
       {
         "name": "ÓCULOS DE SOL AVIADOR VINTAGE",
+        "id": 19,
         "style": "20001883",
         "code_color": "20001883_019",
         "color_slug": "cinza",
@@ -742,6 +762,7 @@
       },
       {
         "name": "PULSEIRA STYLISH",
+        "id": 20,
         "style": "20001913",
         "code_color": "20001913_009",
         "color_slug": "dourado",

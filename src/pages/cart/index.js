@@ -1,13 +1,23 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import Header from '../../components/Header';
+import { connect } from 'react-redux';
+import CartProducts from '../../components/CartProducts'
 
-export default class Cart extends Component {
+
+class Cart extends Component {
+
   render() {
     return (
       <div>
-        <h1>Cart Page</h1>
+        <CartProducts products={this.props.cartItems} />
       </div>
     )
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    cartItems: state.cartItems
+  }
+}
+
+export default connect (mapStateToProps)(Cart)
