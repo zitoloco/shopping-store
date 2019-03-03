@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux';
 import CartProducts from '../../components/CartProducts'
+import { connect } from 'react-redux';
 
 
 class Cart extends Component {
@@ -16,7 +16,7 @@ class Cart extends Component {
 
 const mapStateToProps = state => {
   return {
-    cartItems: state.cartItems
+    cartItems: state.cartReducer
   }
 }
 
