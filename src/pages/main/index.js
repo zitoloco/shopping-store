@@ -1,17 +1,26 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Products from '../../components/Products'
+import { connect } from 'react-redux';
+import { Store } from '../../store';
 
-const productList = require('../../../products.json');
-export default class Main extends Component {
-  
+const productList = require('../../../products.json');      //dont know if this is a good option...
+
+Store.dispatch({type:'ADD_INITIAL_ITEMS', payload: productList.products})
+class Main extends Component {
+
   render() {
     return (
       <div>
-        <Products products={productList.products} />
+        <Products products={this.props.productItems} />
       </div>
     )
   }
 }
 
-  
+const mapStateToProps = state => {
+    return {
+      productItems: state.productsReducer
+    }
+  }
+
+export default connect (mapStateToProps)(Main);
